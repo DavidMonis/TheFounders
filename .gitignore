@@ -1,0 +1,62 @@
+# ===============================
+# Unreal Engine - REQUIRED GITIGNORE
+# ===============================
+
+# --- Build & Cache folders ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Android/
+Build/IOS/
+
+# --- Editor User Settings (not needed for collaboration) ---
+.vs/
+.vscode/
+*.sln
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Crash & Logs ---
+*.log
+*.dmp
+
+# --- Temporary / Autosave ---
+*_BuiltData.uasset
+*_BuiltData.uexp
+
+# --- Ignore compiled shaders ---
+ShaderCache/
+StableDiff/
+DerivedDataCache/
+
+# ===============================
+# Files & Folders YOU SHOULD PUSH
+# (these stay OUTSIDE gitignore)
+# -------------------------------
+# CONFIG/
+# CONTENT/
+# SOURCE/
+# *.uproject
+# ===============================
+
+# --- Other common binary garbage ---
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.ipa
+*.lib
+*.manifest
+
+# --- Zip / archives (optional) ---
+*.zip
+*.7z
+*.rar
+*.gz
+*.tar
+
